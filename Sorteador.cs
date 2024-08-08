@@ -9,7 +9,7 @@ public class Sorteador
         
         
         //Sorteia um número
-        int numeroSorteado = random.Next(1, 11);
+        int numeroSorteado = random.Next(0, 11);
         
         //Exibe o número sorteado para testes
         Console.WriteLine(numeroSorteado);
